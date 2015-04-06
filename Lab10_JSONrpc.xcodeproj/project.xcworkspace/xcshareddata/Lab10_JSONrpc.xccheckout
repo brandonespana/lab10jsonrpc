@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6746B05E-4CD3-4902-8DEE-8C917539F51E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lab10_JSONrpc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>805C1BD8393643AA724D6C7E4095748D215BB48C</key>
+		<string>https://github.com/brandonespana/lab9tableview.git</string>
+		<key>EB39D1AE302C7F89A9AA3CC430E886C2A3DD2394</key>
+		<string>https://github.com/brandonespana/lab10jsonrpc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lab10_JSONrpc.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>805C1BD8393643AA724D6C7E4095748D215BB48C</key>
+		<string>../../../lab9tableview</string>
+		<key>EB39D1AE302C7F89A9AA3CC430E886C2A3DD2394</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brandonespana/lab10jsonrpc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EB39D1AE302C7F89A9AA3CC430E886C2A3DD2394</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>805C1BD8393643AA724D6C7E4095748D215BB48C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lab9tableview</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EB39D1AE302C7F89A9AA3CC430E886C2A3DD2394</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lab10_JSONrpc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

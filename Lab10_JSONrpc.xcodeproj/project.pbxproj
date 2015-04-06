@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		AA70B1661AD3061C00DEEEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B1651AD3061C00DEEEB7 /* main.m */; };
 		AA70B1691AD3061C00DEEEB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B1681AD3061C00DEEEB7 /* AppDelegate.m */; };
-		AA70B16C1AD3061D00DEEEB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B16B1AD3061D00DEEEB7 /* ViewController.m */; };
 		AA70B16F1AD3061D00DEEEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA70B16D1AD3061D00DEEEB7 /* Main.storyboard */; };
 		AA70B1711AD3061D00DEEEB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA70B1701AD3061D00DEEEB7 /* Images.xcassets */; };
 		AA70B1741AD3061D00DEEEB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA70B1721AD3061D00DEEEB7 /* LaunchScreen.xib */; };
 		AA70B1801AD3061D00DEEEB7 /* Lab10_JSONrpcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B17F1AD3061D00DEEEB7 /* Lab10_JSONrpcTests.m */; };
+		AA70B1931AD30B6A00DEEEB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B18A1AD30B6A00DEEEB7 /* ViewController.m */; };
+		AA70B1941AD30B6A00DEEEB7 /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B18C1AD30B6A00DEEEB7 /* Waypoint.m */; };
+		AA70B1951AD30B6A00DEEEB7 /* WaypointTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B18E1AD30B6A00DEEEB7 /* WaypointTableViewController.m */; };
+		AA70B1961AD30B6A00DEEEB7 /* WaypointLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B1901AD30B6A00DEEEB7 /* WaypointLibrary.m */; };
+		AA70B1971AD30B6A00DEEEB7 /* AddWaypointController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B1921AD30B6A00DEEEB7 /* AddWaypointController.m */; };
+		AA70B19A1AD31AA300DEEEB7 /* ServerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70B1991AD31AA300DEEEB7 /* ServerProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		AA70B1651AD3061C00DEEEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA70B1671AD3061C00DEEEB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA70B1681AD3061C00DEEEB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA70B16A1AD3061C00DEEEB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA70B16B1AD3061D00DEEEB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA70B16E1AD3061D00DEEEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA70B1701AD3061D00DEEEB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA70B1731AD3061D00DEEEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AA70B1791AD3061D00DEEEB7 /* Lab10_JSONrpcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab10_JSONrpcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA70B17E1AD3061D00DEEEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA70B17F1AD3061D00DEEEB7 /* Lab10_JSONrpcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab10_JSONrpcTests.m; sourceTree = "<group>"; };
+		AA70B1891AD30B6A00DEEEB7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../lab9tableview/lab9TableViews/ViewController.h; sourceTree = "<group>"; };
+		AA70B18A1AD30B6A00DEEEB7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../lab9tableview/lab9TableViews/ViewController.m; sourceTree = "<group>"; };
+		AA70B18B1AD30B6A00DEEEB7 /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Waypoint.h; path = ../../lab9tableview/lab9TableViews/Waypoint.h; sourceTree = "<group>"; };
+		AA70B18C1AD30B6A00DEEEB7 /* Waypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Waypoint.m; path = ../../lab9tableview/lab9TableViews/Waypoint.m; sourceTree = "<group>"; };
+		AA70B18D1AD30B6A00DEEEB7 /* WaypointTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaypointTableViewController.h; path = ../../lab9tableview/lab9TableViews/WaypointTableViewController.h; sourceTree = "<group>"; };
+		AA70B18E1AD30B6A00DEEEB7 /* WaypointTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaypointTableViewController.m; path = ../../lab9tableview/lab9TableViews/WaypointTableViewController.m; sourceTree = "<group>"; };
+		AA70B18F1AD30B6A00DEEEB7 /* WaypointLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaypointLibrary.h; path = ../../lab9tableview/lab9TableViews/WaypointLibrary.h; sourceTree = "<group>"; };
+		AA70B1901AD30B6A00DEEEB7 /* WaypointLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaypointLibrary.m; path = ../../lab9tableview/lab9TableViews/WaypointLibrary.m; sourceTree = "<group>"; };
+		AA70B1911AD30B6A00DEEEB7 /* AddWaypointController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddWaypointController.h; path = ../../lab9tableview/lab9TableViews/AddWaypointController.h; sourceTree = "<group>"; };
+		AA70B1921AD30B6A00DEEEB7 /* AddWaypointController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddWaypointController.m; path = ../../lab9tableview/lab9TableViews/AddWaypointController.m; sourceTree = "<group>"; };
+		AA70B1981AD31AA300DEEEB7 /* ServerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerProxy.h; sourceTree = "<group>"; };
+		AA70B1991AD31AA300DEEEB7 /* ServerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +96,24 @@
 		AA70B1621AD3061C00DEEEB7 /* Lab10_JSONrpc */ = {
 			isa = PBXGroup;
 			children = (
+				AA70B1891AD30B6A00DEEEB7 /* ViewController.h */,
+				AA70B18A1AD30B6A00DEEEB7 /* ViewController.m */,
+				AA70B18B1AD30B6A00DEEEB7 /* Waypoint.h */,
+				AA70B18C1AD30B6A00DEEEB7 /* Waypoint.m */,
+				AA70B18D1AD30B6A00DEEEB7 /* WaypointTableViewController.h */,
+				AA70B18E1AD30B6A00DEEEB7 /* WaypointTableViewController.m */,
+				AA70B18F1AD30B6A00DEEEB7 /* WaypointLibrary.h */,
+				AA70B1901AD30B6A00DEEEB7 /* WaypointLibrary.m */,
+				AA70B1911AD30B6A00DEEEB7 /* AddWaypointController.h */,
+				AA70B1921AD30B6A00DEEEB7 /* AddWaypointController.m */,
 				AA70B1671AD3061C00DEEEB7 /* AppDelegate.h */,
 				AA70B1681AD3061C00DEEEB7 /* AppDelegate.m */,
-				AA70B16A1AD3061C00DEEEB7 /* ViewController.h */,
-				AA70B16B1AD3061D00DEEEB7 /* ViewController.m */,
 				AA70B16D1AD3061D00DEEEB7 /* Main.storyboard */,
 				AA70B1701AD3061D00DEEEB7 /* Images.xcassets */,
 				AA70B1721AD3061D00DEEEB7 /* LaunchScreen.xib */,
 				AA70B1631AD3061C00DEEEB7 /* Supporting Files */,
+				AA70B1981AD31AA300DEEEB7 /* ServerProxy.h */,
+				AA70B1991AD31AA300DEEEB7 /* ServerProxy.m */,
 			);
 			path = Lab10_JSONrpc;
 			sourceTree = "<group>";
@@ -219,9 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA70B16C1AD3061D00DEEEB7 /* ViewController.m in Sources */,
+				AA70B1951AD30B6A00DEEEB7 /* WaypointTableViewController.m in Sources */,
+				AA70B19A1AD31AA300DEEEB7 /* ServerProxy.m in Sources */,
+				AA70B1971AD30B6A00DEEEB7 /* AddWaypointController.m in Sources */,
+				AA70B1941AD30B6A00DEEEB7 /* Waypoint.m in Sources */,
 				AA70B1691AD3061C00DEEEB7 /* AppDelegate.m in Sources */,
+				AA70B1931AD30B6A00DEEEB7 /* ViewController.m in Sources */,
 				AA70B1661AD3061C00DEEEB7 /* main.m in Sources */,
+				AA70B1961AD30B6A00DEEEB7 /* WaypointLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
